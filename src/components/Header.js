@@ -33,12 +33,14 @@ export default function Header() {
             py={{ base: 30, md: '5rem' }}
             direction="column"
           >
+            {/* Image Picture */}
             <Box w="36" marginX="auto">
               <Img
                 borderRadius="full"
                 src="https://user-images.githubusercontent.com/83684256/201591830-83d711e1-f50e-4926-9f69-6c389ca469cf.jpg"
               />
             </Box>
+            {/* Personal Text */}
             <Box
               display="flex"
               backdropBlur="md"
@@ -61,6 +63,7 @@ export default function Header() {
                 Hey, I'm Raka <span className="wave"> 👋</span>
               </Heading>
             </Box>
+            {/* Information Me */}
             <Box alignItems="center">
               <Text
                 fontWeight={300}
@@ -76,6 +79,7 @@ export default function Header() {
                 and <span className="highlighted-word">like solo learning</span>
               </Text>
             </Box>
+            {/* Your Skills And Stack */}
             <Box justifyContent="center">
               <Badge
                 as="a"
@@ -109,6 +113,7 @@ export default function Header() {
                   <Icon as={FaReact} />
                 </Link>
               </Stack>
+              {/* Your Contact */}
               <Badge
                 as="a"
                 variant="outline"
@@ -117,6 +122,7 @@ export default function Header() {
               >
                 On the web
               </Badge>
+              {/* Detail Contact */}
               <Stack as={Box} marginY="5" spacing="5">
                 <Text fontSize="2xl" fontWeight="thin">
                   <Link href="https://github.com/grizz12" isExternal>
