@@ -20,7 +20,9 @@ const App = () => {
                     <ul className='circles'>{stars()}</ul>
                 </div>
             </div>
+            {/* Import from Nav Components */}
             <Nav />
+            {/* Import from Header Components */}
             <Header />
         </ChakraProvider>
     )
