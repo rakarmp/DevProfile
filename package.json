@@ -35,6 +35,10 @@
       "not dead",
       "not op_mini all"
     ],
+    "description": "Personal site created with React and Chakra UI",
+    "repository": "https://github.com/grizz12",
+    "author": "RakaTrust",
+    "license": "MIT",
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
