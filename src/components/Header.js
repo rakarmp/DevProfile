@@ -36,7 +36,7 @@ export default function Header() {
             <Box w="36" marginX="auto">
               <Img
                 borderRadius="full"
-                src="https://i.ibb.co/ZJTFPGk/avatar.png"
+                src="https://user-images.githubusercontent.com/83684256/201591830-83d711e1-f50e-4926-9f69-6c389ca469cf.jpg"
               />
             </Box>
             <Box
@@ -136,7 +136,7 @@ export default function Header() {
               </Stack>
               <Text marginTop="6" fontFamily="mono">
                 Get in touch <span>👉</span>{' '}
-                <a className="mail" href="mailto:hakandenizerdogan@gmail.com">
+                <a className="mail" href="mailto:rakaabdirmp@gmail.com">
                   rakaabdirmp@gmail.com
                 </a>
               </Text>
